@@ -16,6 +16,7 @@ import io.github.aakira.napier.Napier
 
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 1
@@ -39,7 +40,7 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Preview
+//@Preview
 @Composable
 fun DefaultPreview() {
     MyApplicationTheme {
